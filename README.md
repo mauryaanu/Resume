@@ -13,4 +13,5 @@ Requirements:
  * ConTeXt
  * pandoc
 
-Resume Location: htmlpreview.github.io/?https://github.com/mauryaanu/Resume/blob/master/resume.html
+Resume Location: 
+http://htmlpreview.github.io/?https://github.com/mauryaanu/Resume/blob/master/resume.html
