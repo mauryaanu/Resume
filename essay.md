@@ -1,0 +1,12 @@
+1. Why are you interested in programming? What have you done to expose yourself to programming so far?  
+>I have been in the software industry for over 9 years as a functional (manual) tester. I have been interested in programming and automation for last few years. Being in the manual test team, I always ended with running automation created by other SDET or developers and some tangential attempts at created record and play back type scripts. I need to dedicate both time and effort in training myself into a full developer role. Software industry is also trending in that direction where coding is becoming a foundational skill for testers.
+
+2. If you are accepted into our program, where do you see your career in 5 years?  
+>I see myself moving into a senior SDET or senior developer role. I have fair degree of industry knowledge of various technologies and product areas. I am being held back by my lack of skill in coding.
+
+3. After reading Ada's Vision, Mission and Inclusivity Statement, how will you contribute to Ada's vision for an inclusive and diverse community?   http://adadevelopersacademy.org/program
+>I recognize the value Ada provides to the community thru this training. I have been mentoring junior engineers at my workplaces for last few years. As I gain confidence in a development role, I intend to contribute as a volunteer in getting interested candidates up to speed make a transition into development careers. When I am in hiring and decision making roles, I can also help hire Ada trainees as interns/FTEs.
+
+4. Tell us about a time you made a mistake that you learned a lot from. If you encountered the situation again, what would you do differently?  
+>In one of my projects, I was the core tester responsible for release checklist testing. We had a manual suite of tests that took half a day to run through.  We had a last minute change to some unrelated area. We tested the change and to keep the release date same, we shipped after a brief sanity test pass around the change. We could not run the release checklist as it would delay the release by a day.
+One of the checks had been broken, and was discovered by the customer. We had to recall/reship. The great learning was to have even the release checklist fully automated where we could trigger it even for a benign looking last minute change and not run into this embarrassing situation. This is one of the reasons why I am so committed to transforming myself into a competent developer.
