@@ -1,0 +1,117 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <style type="text/css">
+  /*
+   * Copyright 2013 Christophe-Marie Duquesne <chmd@chmd.fr>
+   *
+   * CSS for making a resume with pandoc. Inspired by moderncv.
+   *
+   * This CSS document is delivered to you under the CC BY-SA 3.0 License.
+   * https://creativecommons.org/licenses/by-sa/3.0/deed.en_US
+   */
+  
+  /* Whole document */
+  body {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      width: 800px;
+      margin: auto;
+      background: #FFFFFF;
+      padding: 10px 10px 10px 10px;
+  }
+  
+  /* Title of the resume */
+  h1 {
+      font-size: 55px;
+      color: #757575;
+      text-align:center;
+      margin-bottom:15px;
+  }
+  h1:hover {
+      background-color: #757575;
+      color: #FFFFFF;
+      text-shadow: 1px 1px 1px #333;
+  }
+  
+  /* Titles of categories */
+  h2 {
+      /* This is called "sectioncolor" in the ConTeXt stylesheet. */
+      color: #397249;
+  }
+  /* There is a bar just before each category */
+  h2:before {
+      content: "";
+      display: inline-block;
+      margin-right:1%;
+      width: 16%;
+      height: 10px;
+      /* This is called "rulecolor" in the ConTeXt stylesheet. */
+      background-color: #9CB770;
+  }
+  h2:hover {
+      background-color: #397249;
+      color: #FFFFFF;
+      text-shadow: 1px 1px 1px #333;
+  }
+  
+  /* Definitions */
+  dt {
+      float: left;
+      clear: left;
+      width: 17%;
+      /*font-weight: bold;*/
+  }
+  dd {
+      margin-left: 17%;
+  }
+  p {
+      margin-top:0;
+      margin-bottom:7px;
+  }
+  
+  /* Blockquotes */
+  blockquote {
+      text-align: center
+  }
+  
+  /* Links */
+  a {
+      text-decoration: none;
+      color: #397249;
+  }
+  a:hover, a:active {
+      background-color: #397249;
+      color: #FFFFFF;
+      text-decoration: none;
+      text-shadow: 1px 1px 1px #333;
+  }
+  
+  /* Horizontal separators */
+  hr {
+      color: #A6A6A6;
+  }
+  
+  table {
+      width: 100%;
+  }
+  </style>
+</head>
+<body>
+<ol style="list-style-type: decimal">
+<li><p>Why are you interested in programming? What have you done to expose yourself to programming so far?<br />
+&gt;I have been in the software industry for over 9 years as a functional (manual) tester. I have been interested in programming and automation for last few years. Being in the manual test team, I always ended with running automation created by other SDET or developers and some tangential attempts at created record and play back type scripts. I need to dedicate both time and effort in training myself into a full developer role. Software industry is also trending in that direction where coding is becoming a foundational skill for testers.</p></li>
+<li><p>If you are accepted into our program, where do you see your career in 5 years?<br />
+&gt;I see myself moving into a senior SDET or senior developer role. I have fair degree of industry knowledge of various technologies and product areas. I am being held back by my lack of skill in coding.</p></li>
+<li><p>After reading Ada's Vision, Mission and Inclusivity Statement, how will you contribute to Ada's vision for an inclusive and diverse community? http://adadevelopersacademy.org/program &gt;I recognize the value Ada provides to the community thru this training. I have been mentoring junior engineers at my workplaces for last few years. As I gain confidence in a development role, I intend to contribute as a volunteer in getting interested candidates up to speed make a transition into development careers. When I am in hiring and decision making roles, I can also help hire Ada trainees as interns/FTEs.</p></li>
+<li><p>Tell us about a time you made a mistake that you learned a lot from. If you encountered the situation again, what would you do differently?<br />
+&gt;In one of my projects, I was the core tester responsible for release checklist testing. We had a manual suite of tests that took half a day to run through. We had a last minute change to some unrelated area. We tested the change and to keep the release date same, we shipped after a brief sanity test pass around the change. We could not run the release checklist as it would delay the release by a day. One of the checks had been broken, and was discovered by the customer. We had to recall/reship. The great learning was to have even the release checklist fully automated where we could trigger it even for a benign looking last minute change and not run into this embarrassing situation. This is one of the reasons why I am so committed to transforming myself into a competent developer.</p></li>
+</ol>
+</body>
+</html>
+
+
